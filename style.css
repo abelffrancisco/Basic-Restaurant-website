@@ -7,7 +7,7 @@
 }
 
 body{
-background: url(file://wsl.localhost/Ubuntu-18.04/home/abel/aa-projects/html-css/basic-restaurant-website/pictures/top-view-circular-food-frame.jpg) no-repeat center center fixed;
+background: url(pictures/top-view-circular-food-frame.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
