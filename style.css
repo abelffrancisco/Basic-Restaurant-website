@@ -1,0 +1,279 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+background: url(file://wsl.localhost/Ubuntu-18.04/home/abel/aa-projects/html-css/basic-restaurant-website/pictures/top-view-circular-food-frame.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.upnavbar {
+    display: flex;
+    align-items:end;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+
+
+  }
+
+  .logonavbar {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+
+
+  }
+
+  .pagesnavbar {
+    flex: 1;
+    display: flex;
+    justify-content:space-around;
+    padding-right:28%;
+
+
+  }
+
+  .nav{
+text-decoration: none;
+font-size: 155%;
+color: black;
+transition: color 0.2s ease-out;
+  }
+  .nav:hover{
+    transform: scale(1.2);
+  }
+
+
+  .pagesnavbar a {
+    margin: 0 40px;
+  }
+
+  .logo1 {
+
+    width: 25%;
+    height: auto;
+  }
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10%
+
+}
+
+.wellcome{
+  color: red;
+  font-family:cursive;
+  font-size: 150%;
+
+}
+.namaste{
+ font-size: 135%;
+}
+.order1{
+  text-decoration: none;
+  color: red;
+  font-size: 100%;
+}
+
+
+.takeaway{
+ padding: 5px;
+ border-radius: 9px;
+background-color: transparent;
+border: 1px solid black;
+}
+.takeaway:hover{
+  background-color: white;
+}
+
+.delivery{
+  padding: 5px;
+  border-radius: 9px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+.delivery:hover{
+  background-color:white;
+}
+
+
+.fotoprato{
+    width: 100%;
+    height: auto;
+
+}
+
+.text1{
+padding: 5% 30% 15%;
+font-size: 110%;
+
+}
+.strong1{
+  font-size: 130%;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+.menufoto{
+display: flex;
+justify-content: center;
+align-items: center;
+  width: 100%;
+  height: 100%;
+
+}
+.fit-screan{
+  max-width: 60%;
+  max-height: 60%;
+
+}
+
+.teamimg{
+  display: flex;
+justify-content: center;
+align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.team{
+  padding: 5%;
+  max-width: 80%;
+  max-height: 80%;
+}
+.teamtext{
+  padding: 0% 25% 10%;
+}
+.textteam{
+  font-size: 18px;
+}
+
+.one{
+
+  max-width: 55%;
+  height: 50%;
+  padding:7%;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.line1{
+  display: flex;
+  justify-content: center;
+}
+.txt1{
+  padding: 15% 25% 5% 0%;
+  font-size: 110%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  .one:hover{
+    transform: scale(1.2);
+  }
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 16%;
+}
+
+.cont {
+  display: flex;
+  flex-direction:column;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select {
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  padding: 7px 14px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 16%;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.mapslocation {
+text-decoration: none;
+font-size: 18px;
+color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: transparent;
+  font-family: Arial, sans-serif;
+  max-width:600px;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.formcontainer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column ;
+}
+
+
+.containermaps {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column ;
+}
